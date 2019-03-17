@@ -20,6 +20,7 @@ body {
   border-width: 0;
   border-bottom-width: 8px;
   height: 80px;
+  
 }
 
 #nav {
@@ -70,15 +71,25 @@ body {
   background: #777;
   width: 95%;
   margin-left: 2%;
+  margin-right: 2%;
   margin-top: 65px;
   height: 150px;
+  
 }
 
-#h1,
-h2,
-h3 {
+#h1, h2, h3 {
   color: #777;
   background: #ebebeb;
+  border-bottom-width: 8px;
+  height: 30px;
+  margin: 0%;
+}
+
+#p {
+  background: #ebebeb;
+  color: #777;
+  height: 40px;
+  margin: 0px;
 }
 
 /* 
@@ -90,4 +101,8 @@ h3 {
   content: "";
   clear: both;
   display: table;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #ebebeb;
+  color: #777;
 }
